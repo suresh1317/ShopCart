@@ -49,7 +49,7 @@ public String addProductOperation(@ModelAttribute("product") Product product,Mod
 	MultipartFile file=product.getPimg();
 	productDao.addProduct(product);
 	m.addAttribute("status", "add");
-	String path = "C:\\Users\\Mohan\\Desktop\\Workspace\\enterpriseapp\\src\\main\\webapp\\resources\\images\\product\\"+product.getId()+".jpg";
+	String path = "C:\\Users\\dell pc\\NeonWorkspace\\Project\\onlineShopCart\\ShopCart\\ShopCartFront\\src\\main\\webapp\\images\\ProductImages\\"+product.getId()+".jpg";
 	
 	File fileupload= new File(path);
 	

@@ -42,9 +42,6 @@
 <li ><a href="adminadding" >ADMIN</a></li>
 </security:authorize>
 
-<security:authorize access="hasRole('USER')">
-<li ><a href="cartpage" class="btn btn-info"><span style="color:white" class="glyphicon glyphicon-shopping-cart">CART</span></a></li>
-</security:authorize>
 
 </ul>
 <form class="navbar-form navbar-left" action="search">
@@ -73,6 +70,11 @@
 		</ul>		
 </li>
 </security:authorize>
+
+<security:authorize access="hasRole('USER')">
+<li ><a href="cartpage" class="btn btn-info"><span style="color:white" class="glyphicon glyphicon-shopping-cart">CART</span></a></li>
+</security:authorize>
+
 </ul>
 </div>
 </div>
