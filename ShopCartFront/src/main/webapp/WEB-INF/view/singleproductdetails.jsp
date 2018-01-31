@@ -32,7 +32,7 @@
 <div class="row">
 <div class="col-sm-4">
 <div class="thumbnail">
-<img src="<c:url value="/resources/images/product/${productdetails.id}.jpg"/>"  height="2000" width="2000" class="img img-responsive"/>
+<img src="<c:url value="/images/ProductImages/${productdetails.id}.jpg"/>"  height="2000" width="2000" class="img img-responsive"/>
 </div>
 </div>
 <div class="col-sm-8">

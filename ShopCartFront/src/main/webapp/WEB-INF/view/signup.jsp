@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Registration Page</title>
+<title>SignUp Page</title>
 </head>
 <body>
 <%@ include file="/WEB-INF/view/header.jsp" %>
@@ -21,7 +21,7 @@
 			<div class="row main">
 				<div class="panel-heading">
 	               <div class="panel-title text-center">
-	               		<h1 class="title">Registration Form</h1>
+	               		<h1 class="title" style="color: #58D68D;">SignUp Form</h1>
 	               		<hr />
 	               	</div>
 	            </div> 
@@ -65,8 +65,8 @@
 							<label class="col-xs-offset-1 cols-xs-2 col-sm-offset-1 cols-sm-2 control-label">Gender</label>
 							<div class="col-xs-offset-1 cols-xs-5 col-sm-offset-1 cols-sm-6">
 								<div class="input-group">
-									<form:radiobutton class="active" path = "gender" value = "Male" label = "Male" /><i class="fa fa-male fa" aria-hidden="true"></i>
-									<form:radiobutton path = "gender" value = "Female" label = "Female" /><i class="fa fa-female fa" aria-hidden="true"></i>
+									<form:radiobutton class="active" path = "gender" value = "Male" label = "Male" />
+									<form:radiobutton path = "gender" value = "Female" label = "Female" />
 									</div>
 							</div>
 						</div>
@@ -128,7 +128,7 @@
 							<button type="submit" class="btn btn-primary btn-lg btn-block login-button" formaction="register">Register</button>
 						 </div>
 						 <div class="col-md-3">	
-							<button type="reset" class="btn btn-primary btn-lg btn-block login-button" >Reset</button>
+							<button type="reset" class="btn btn-danger btn-lg btn-block login-button" >Reset</button>
 						 </div>
 						</div>
 					</form:form>

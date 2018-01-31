@@ -32,9 +32,9 @@ public class SupplierTest {
 		try{
 		Supplier supplier=new Supplier();
 		supplier.setId(106);
-		supplier.setContact("1234567890");
-		supplier.setAddress("Andheri (East)");
-		supplier.setName("vishnu retails");
+		supplier.setContact("9867318959");
+		supplier.setAddress("Bhayander (East)");
+		supplier.setName("top Ten");
 		supplierDao.addSupplier(supplier);
 		}
 		catch (Exception e) {
@@ -48,10 +48,10 @@ public class SupplierTest {
 		try{
 		Supplier supplier=new Supplier();
 		supplier.setId(106);
-		supplier.setContact("90");
-		supplier.setEmail("akash123@gmail.com");
+		supplier.setContact("9054646446");
+		supplier.setEmail("maya@gmail.com");
 		supplier.setAddress("Andheri (East)");
-		supplier.setName("vishnu retails");
+		supplier.setName("top Ten");
 		supplierDao.updateSupplier(supplier);
 		}
 		catch (Exception e) {

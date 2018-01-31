@@ -9,7 +9,7 @@
 <div class="container">
 <div class="navbar-text pull-left">
 &nbsp;&nbsp;
-Email:sureshkumawat077@gmail.com
+<span style="position: center" >&#169;	by suresh kumawat 2018</span>
 </div>
 
  <ul class="nav navbar-nav navbar-right">

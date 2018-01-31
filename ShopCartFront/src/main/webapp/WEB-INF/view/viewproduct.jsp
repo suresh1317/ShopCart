@@ -129,7 +129,7 @@
 <tr>
 <td>
 <a href="<c:url value="singleproductdetails${list.id}" />">
-<img src="<c:url value="/resources/images/product/${list.id}.jpg"/>"  height="200" width="200" class="img img-responsive"/>
+<img src="<c:url value="/images/ProductImages/${list.id}.jpg"/>"  height="200" width="200" class="img img-responsive"/>
 </a>
 </td>
 
